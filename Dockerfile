@@ -1,4 +1,4 @@
-FROM composer:1.9.3
+FROM composer
 
 RUN apk add --no-cache libpng-dev libzip-dev
 RUN docker-php-ext-configure gd
